@@ -32,9 +32,9 @@
 자바스크립트는 **동적 타이핑(dynamic typing)** 언어로, 변수에 저장된 데이터 타입은 실행 중 변경될 수 있습니다. 예를 들어:
 
 ```javascript
-let variable = 42;        // number
+let variable = 42;       // number
 variable = "Hello";      // string
-variable = true;          // boolean
+variable = true;         // boolean
 ```
 
 이러한 특성으로 인해 개발자는 변수 타입을 명확히 이해하고 코드를 작성해야 합니다.
