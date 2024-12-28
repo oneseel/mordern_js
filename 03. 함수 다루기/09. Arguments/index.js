@@ -21,7 +21,7 @@ printArguments(1, 2, 3, 4, 5, 6);
 printArguments(1, 2);
 
 // Arguments 객체를 반복 처리하는 예제
-function printArguments2(a, b, c) {
+function printArguments2() {
   for (const arg of arguments) {
     console.log(arg); // 각 인수를 출력
   }
