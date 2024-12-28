@@ -16,12 +16,12 @@ function introduce(user = "Codeit", hobby = "coding") {
 }
 
 introduce();                        // Codeit likes coding
-introduce(undefined, "traveling"); // Codeit likes traveling
+introduce(undefined, "traveling");  // Codeit likes traveling
 
 // 기본값을 다른 매개변수를 활용해 설정
 function calculate(a, b = a + 3) {
   console.log(`a: ${a}, b: ${b}`);
 }
 
-calculate(5); // a: 5, b: 8
-calculate(10, 20); // a: 10, b: 20
+calculate(5);       // a: 5, b: 8
+calculate(10, 20);  // a: 10, b: 20
